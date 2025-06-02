@@ -24,79 +24,99 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    // This string will collect the operations and number being typed in
+    String display = "";
+
     public void button00Click(View view) {
-        TextView eText = (TextView)findViewById(R.id.resultEdit);
-        eText.setText(eText.getText() + "0");
+        display = display + "0";
+        textView();
     }
 
     public void button01Click(View view) {
-        TextView eText = (TextView)findViewById(R.id.resultEdit);
-        eText.setText(eText.getText() + "1");
+        display = display + "1";
+        textView();
     }
 
     public void button02Click(View view) {
-        TextView eText = (TextView)findViewById(R.id.resultEdit);
-        eText.setText(eText.getText() + "2");
+        display = display + "2";
+        textView();
     }
 
     public void button03Click(View view) {
-        TextView eText = (TextView)findViewById(R.id.resultEdit);
-        eText.setText(eText.getText() + "3");
+        display = display + "3";
+        textView();
     }
 
     public void button04Click(View view) {
-        TextView eText = (TextView)findViewById(R.id.resultEdit);
-        eText.setText(eText.getText() + "4");
+        display = display + "4";
+        textView();
     }
 
     public void button05Click(View view) {
-        TextView eText = (TextView)findViewById(R.id.resultEdit);
-        eText.setText(eText.getText() + "5");
+        display = display + "5";
+        textView();
     }
 
     public void button06Click(View view) {
-        TextView eText = (TextView)findViewById(R.id.resultEdit);
-        eText.setText(eText.getText() + "6");
+        display = display + "6";
+        textView();
     }
 
     public void button07Click(View view) {
-        TextView eText = (TextView)findViewById(R.id.resultEdit);
-        eText.setText(eText.getText() + "7");
+        display = display + "7";
+        textView();
     }
 
     public void button08Click(View view) {
-        TextView eText = (TextView)findViewById(R.id.resultEdit);
-        eText.setText(eText.getText() + "8");
+        display = display + "8";
+        textView();
     }
 
     public void button09Click(View view) {
-        TextView eText = (TextView)findViewById(R.id.resultEdit);
-        eText.setText(eText.getText() + "9");
-    }
-
-    public void buttonDivClick(View view) {
-        TextView eText = (TextView)findViewById(R.id.resultEdit);
-        eText.setText(eText.getText() + "/");
-    }
-
-    public void buttonMultClick(View view) {
-        TextView eText = (TextView)findViewById(R.id.resultEdit);
-        eText.setText(eText.getText() + "*");
-    }
-
-    public void buttonSubClick(View view) {
-        TextView eText = (TextView)findViewById(R.id.resultEdit);
-        eText.setText(eText.getText() + "-");
+        display = display + "9";
+        textView();
     }
 
     public void buttonAddClick(View view) {
-        TextView eText = (TextView)findViewById(R.id.resultEdit);
-        eText.setText(eText.getText() + "+");
+        display = display + "+";
+        textView();
+    }
+
+    public void buttonSubClick(View view) {
+        display = display + "-";
+        textView();
+    }
+
+    public void buttonMultClick(View view) {
+        display = display + "×";
+        textView();
+    }
+
+    public void buttonDivClick(View view) {
+        display = display + "÷";
+        textView();
     }
 
     public void buttonDotClick(View view) {
-        TextView eText = (TextView)findViewById(R.id.resultEdit);
-        eText.setText(eText.getText() + ".");
+        display = display + ".";
+        textView();
     }
 
+    // Equals method
+    public void buttonEqClick(View view) {
+        try {
+            // iterate through result string, if it's a number
+            display ="test";
+            textView();
+        } catch (Exception e) {
+            display = "Invalid Input";
+            textView();
+        }
+    }
+
+    // Instead of typing out the eText object for every class, this method can be called to to update the display (resultEdit)
+    public void textView() {
+        TextView eText = (TextView)findViewById(R.id.resultEdit);
+        eText.setText(display);
+    }
 }
