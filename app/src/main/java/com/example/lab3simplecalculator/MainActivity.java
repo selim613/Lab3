@@ -3,7 +3,6 @@ package com.example.lab3simplecalculator;
 import android.os.Bundle;
 import android.widget.TextView;
 import android.view.View;
-import android.widget.EditText;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
@@ -111,8 +110,31 @@ public class MainActivity extends AppCompatActivity {
     // Equals method
     public void buttonEqClick(View view) {
         try {
-            // iterate through result string
-            display ="test";
+            String[] inputString = display.split("(?<=[÷×+\\-])|(?=[÷×+\\-])");
+            double result = Double.parseDouble(inputString[0]); // Saves the first number of the input string
+
+            // This loop only iterates through operations (x = x + 2)
+            for (int x = 1; x < inputString.length; x = x + 2) {
+                String operation = inputString[x];
+                double num = Double.parseDouble(inputString[x + 1]); // Saves the number immediately after the operation
+
+                switch (operation) {
+                    case "+":
+                        result = result + num;
+                        break;
+                    case "-":
+                        result = result - num;
+                        break;
+                    case "×":
+                        result = result *  num;
+                        break;
+                    case "÷":
+                        result = result / num;
+                        break;
+                }
+            }
+
+            display = String.valueOf(result);
             textView();
         } catch (Exception e) {
             display = "Invalid Input";
