@@ -16,8 +16,7 @@
         <TextView
             android:id="@+id/resultEdit"
             android:layout_width="fill_parent"
-            android:layout_height="102dp"
-            android:text="TextView" />
+            android:layout_height="102dp" />
 
         <LinearLayout
             android:id="@+id/ButtonRow01"
@@ -31,28 +30,32 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="7" />
+                android:onClick="button07Click"
+                android:text="@string/button_07" />
 
             <Button
                 android:id="@+id/button08"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="8" />
+                android:onClick="button08Click"
+                android:text="@string/button_08" />
 
             <Button
                 android:id="@+id/button09"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="9" />
+                android:onClick="button09Click"
+                android:text="@string/button_09" />
 
             <Button
                 android:id="@+id/buttonDiv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="÷" />
+                android:onClick="buttonDivClick"
+                android:text="@string/button_div" />
 
         </LinearLayout>
 
@@ -68,28 +71,32 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="4" />
+                android:onClick="button04Click"
+                android:text="@string/button_04" />
 
             <Button
                 android:id="@+id/button05"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="5" />
+                android:onClick="button05Click"
+                android:text="@string/button_05" />
 
             <Button
                 android:id="@+id/button06"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="6" />
+                android:onClick="button06Click"
+                android:text="@string/button_06" />
 
             <Button
                 android:id="@+id/buttonMult"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="×" />
+                android:onClick="buttonMultClick"
+                android:text="@string/button_mult" />
 
         </LinearLayout>
 
@@ -105,28 +112,32 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="1" />
+                android:onClick="button01Click"
+                android:text="@string/button_01" />
 
             <Button
                 android:id="@+id/button02"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="2" />
+                android:onClick="button02Click"
+                android:text="@string/button_02" />
 
             <Button
                 android:id="@+id/button03"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="3" />
+                android:onClick="button03Click"
+                android:text="@string/button_03" />
 
             <Button
                 android:id="@+id/buttonSub"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="-" />
+                android:onClick="buttonSubClick"
+                android:text="@string/button_sub" />
 
         </LinearLayout>
 
@@ -142,28 +153,31 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="C" />
+                android:text="@string/button_ce" />
 
             <Button
                 android:id="@+id/button00"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="0" />
+                android:onClick="button00Click"
+                android:text="@string/button_00" />
 
             <Button
                 android:id="@+id/buttonDot"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="." />
+                android:onClick="buttonDotClick"
+                android:text="@string/button_dot" />
 
             <Button
                 android:id="@+id/buttonAdd"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="+" />
+                android:onClick="buttonAddClick"
+                android:text="@string/button_add" />
         </LinearLayout>
 
         <Button
