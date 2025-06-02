@@ -31,7 +31,12 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="button07Click"
+                android:background="@color/buttonBackground"
+                android:textColor="@color/buttonTextColor"
+                android:padding="12dp"
+                android:textSize="20sp"
                 android:text="@string/button_07" />
+
 
             <Button
                 android:id="@+id/button08"
@@ -39,6 +44,10 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="button08Click"
+                android:background="@color/buttonBackground"
+                android:textColor="@color/buttonTextColor"
+                android:padding="12dp"
+                android:textSize="20sp"
                 android:text="@string/button_08" />
 
             <Button
@@ -47,6 +56,10 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="button09Click"
+                android:background="@color/buttonBackground"
+                android:textColor="@color/buttonTextColor"
+                android:padding="12dp"
+                android:textSize="20sp"
                 android:text="@string/button_09" />
 
             <Button
@@ -55,6 +68,10 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="buttonDivClick"
+                android:background="@color/buttonBackground"
+                android:textColor="@color/buttonTextColor"
+                android:padding="12dp"
+                android:textSize="20sp"
                 android:text="@string/button_div" />
 
         </LinearLayout>
@@ -72,6 +89,10 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="button04Click"
+                android:background="@color/buttonBackground"
+                android:textColor="@color/buttonTextColor"
+                android:padding="12dp"
+                android:textSize="20sp"
                 android:text="@string/button_04" />
 
             <Button
@@ -80,6 +101,10 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="button05Click"
+                android:background="@color/buttonBackground"
+                android:textColor="@color/buttonTextColor"
+                android:padding="12dp"
+                android:textSize="20sp"
                 android:text="@string/button_05" />
 
             <Button
@@ -88,7 +113,12 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="button06Click"
+                android:background="@color/buttonBackground"
+                android:textColor="@color/buttonTextColor"
+                android:padding="12dp"
+                android:textSize="20sp"
                 android:text="@string/button_06" />
+
 
             <Button
                 android:id="@+id/buttonMult"
@@ -96,6 +126,10 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="buttonMultClick"
+                android:background="@color/buttonBackground"
+                android:textColor="@color/buttonTextColor"
+                android:padding="12dp"
+                android:textSize="20sp"
                 android:text="@string/button_mult" />
 
         </LinearLayout>
@@ -113,6 +147,10 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="button01Click"
+                android:background="@color/buttonBackground"
+                android:textColor="@color/buttonTextColor"
+                android:padding="12dp"
+                android:textSize="20sp"
                 android:text="@string/button_01" />
 
             <Button
@@ -121,6 +159,10 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="button02Click"
+                android:background="@color/buttonBackground"
+                android:textColor="@color/buttonTextColor"
+                android:padding="12dp"
+                android:textSize="20sp"
                 android:text="@string/button_02" />
 
             <Button
@@ -129,6 +171,10 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="button03Click"
+                android:background="@color/buttonBackground"
+                android:textColor="@color/buttonTextColor"
+                android:padding="12dp"
+                android:textSize="20sp"
                 android:text="@string/button_03" />
 
             <Button
@@ -137,6 +183,10 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="buttonSubClick"
+                android:background="@color/buttonBackground"
+                android:textColor="@color/buttonTextColor"
+                android:padding="12dp"
+                android:textSize="20sp"
                 android:text="@string/button_sub" />
 
         </LinearLayout>
@@ -154,6 +204,10 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="buttonCEClick"
+                android:background="@color/buttonBackground"
+                android:textColor="@color/buttonTextColor"
+                android:padding="12dp"
+                android:textSize="20sp"
                 android:text="@string/button_ce" />
 
             <Button
@@ -162,6 +216,10 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="button00Click"
+                android:background="@color/buttonBackground"
+                android:textColor="@color/buttonTextColor"
+                android:padding="12dp"
+                android:textSize="20sp"
                 android:text="@string/button_00" />
 
             <Button
@@ -170,6 +228,10 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="buttonDotClick"
+                android:background="@color/buttonBackground"
+                android:textColor="@color/buttonTextColor"
+                android:padding="12dp"
+                android:textSize="20sp"
                 android:text="@string/button_dot" />
 
             <Button
@@ -178,6 +240,10 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="buttonAddClick"
+                android:background="@color/buttonBackground"
+                android:textColor="@color/buttonTextColor"
+                android:padding="12dp"
+                android:textSize="20sp"
                 android:text="@string/button_add" />
         </LinearLayout>
 
@@ -187,6 +253,10 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:onClick="buttonEqClick"
+            android:background="@color/buttonBackground"
+            android:textColor="@color/buttonTextColor"
+            android:padding="12dp"
+            android:textSize="20sp"
             android:text="=" />
 
     </LinearLayout>
