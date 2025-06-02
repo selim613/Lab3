@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    // This string will collect the operations and number being typed in
+    // This string will collect the operations and numbers being typed in
     String display = "";
 
     public void button00Click(View view) {
@@ -102,10 +102,16 @@ public class MainActivity extends AppCompatActivity {
         textView();
     }
 
+    // Method to clear the display
+    public void buttonCEClick(View view) {
+        display = "";
+        textView();
+    }
+
     // Equals method
     public void buttonEqClick(View view) {
         try {
-            // iterate through result string, if it's a number
+            // iterate through result string
             display ="test";
             textView();
         } catch (Exception e) {
